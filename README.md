@@ -16,35 +16,41 @@ Simple and Lightweight: Easy to integrate into other projects or use as a standa
 
 **Prerequisites**
 
-Python 3.x installed on your system.
-Required Python packages: qrcode, PIL (included with the qrcode package).
+-Python 3.x installed on your system.
+-Required Python packages: qrcode, PIL (included with the qrcode package).
+
 **Installation**
 Clone the Repository:
+-git clone url
 
-sh
-Copy code
-git clone url
-cd qr-code-generator
 Install Required Python Packages:
 
-sh
-Copy code
-pip install qrcode[pil]
+-pip install qrcode[pil]
+
 Usage
+
 Generate a QR Code:
 
-
 Modify the script to include your data in the json_data variable or pass the data directly to the get_qrcode function.
-python
-Copy code
-json_data = {
-    'name': 'Example',
-    'age': 27
-}
-image_qrcode = get_qrcode(json_data)
-image_qrcode.show()
-Save the QR Code:
 
+python
+
+Copy code
+
+json_data = {
+
+    'name': 'Example',
+    
+    'age': 27
+
+}
+
+
+image_qrcode = get_qrcode(json_data)
+
+image_qrcode.show()
+
+Save the QR Code:
 
 The script automatically saves the generated QR code as a PNG file. The file is named after a specific field in the data (e.g., name) or can be customized.
 
@@ -52,14 +58,9 @@ Display the QR Code:
 
 The generated QR code image can be displayed directly using the script or opened from the saved location.
 
-File Structure
-
-bash
-Copy code
+**File Structure**
 
 qr-code-generator/
-
-│
 
 ├── qr_code_generator.py      # Main script for generating QR codes
 
@@ -67,7 +68,7 @@ qr-code-generator/
 
 └── requirements.txt          # List of Python dependencies (if applicable)
 
-Customization
+**Customization**
 
 Input Data: Modify the script to accept different types of input data (e.g., URLs, plain text).
 
