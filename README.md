@@ -17,10 +17,13 @@ Simple and Lightweight: Easy to integrate into other projects or use as a standa
 **Prerequisites**
 
 -Python 3.x installed on your system.
+
 -Required Python packages: qrcode, PIL (included with the qrcode package).
 
 **Installation**
+
 Clone the Repository:
+
 -git clone url
 
 Install Required Python Packages:
