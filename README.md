@@ -78,6 +78,7 @@ Input Data: Modify the script to accept different types of input data (e.g., URL
 Output Filename: Adjust the naming convention of the output file by editing the image_path variable.
 
 **Benefits**
+
 Versatility: Generate QR codes from a wide range of data types, suitable for various applications.
 
 Ease of Use: Simple, straightforward script that can be easily adapted to different use cases.
